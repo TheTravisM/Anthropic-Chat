@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function that takes a boto3 S3 client and a bucket name, and returns the names of all objects in the bucket whose keys end with '.log' and whose size is greater than 1 MB. Use pagination so the function works for buckets with more than 1,000 objects."
+  },
+  {
+    "task": "Write a JSON object for an AWS IAM policy that allows read-only access (s3:GetObject and s3:ListBucket) to the S3 bucket 'reports-prod' and its objects, and denies all actions when the request is made over an insecure transport (aws:SecureTransport is false)."
+  },
+  {
+    "task": "Write a regular expression that matches valid AWS EC2 instance IDs, which begin with 'i-' followed by either 8 or 17 lowercase hexadecimal characters, and does not match any other string."
+  }
+]
